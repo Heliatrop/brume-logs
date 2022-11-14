@@ -60,7 +60,7 @@ export default function Home() {
     <div className="flex items-start justify-center gap-[100px]">
       <div className="flex flex-col items-center gap-2">
         <span className="text-3xl text-colored">
-          Lunar requests
+          Brume requests
         </span>
         <div className="my-2" />
         {logs.data?.filter(checkTorLog).map(log =>
@@ -124,10 +124,8 @@ export default function Home() {
   const Header = <div className="flex flex-col items-center">
     <div className="flex justify-center items-center gap-4">
       <span className="text-5xl text-center text-colored">
-        Lunar Wallet
+        Brume Wallet
       </span>
-      <img className="icon-3xl"
-        src="logo.svg" alt="logo" />
     </div>
     <div className="h-2" />
     <span className="text-xl text-contrast">{"Don't trust, verify!"}</span>
