@@ -62,7 +62,8 @@ export default function Home() {
         <span className="text-3xl text-colored">
           Brume requests
         </span>
-        <div className="my-2" />
+        <div className="my-1" />
+        <div className="h-1 w-[400px]" />
         {logs.data?.filter(checkTorLog).map(log =>
           <div key={log.time} className="p-4 flex items-start border rounded-xl bg-component border border-default w-[400px]">
             <div className="flex flex-col">
@@ -86,7 +87,8 @@ export default function Home() {
         <span className="text-3xl text-colored">
           Other wallet requests
         </span>
-        <div className="my-2" />
+        <div className="my-1" />
+        <div className="h-1 w-[400px]" />
         {logs.data?.filter(checkOtherLog).map(log =>
           <div key={log.time} className="p-4 flex items-start border rounded-xl bg-component border border-default w-[400px]">
             <div className="flex flex-col">
